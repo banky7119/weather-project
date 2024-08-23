@@ -1,5 +1,5 @@
 import React from 'react';
-import './Settings.css';
+import './styles/settings.css';
 import { useAppContext } from '../context/AppContext';
 
 const Settings: React.FC = () => {

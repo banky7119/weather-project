@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './MainContent.css';
+import './styles/maincontent.css';
 import Weather from './weather';
 import Cities from './cities';
 import Settings from './settings';
