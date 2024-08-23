@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
-import './Cities.css';
+// import './Cities.css';
+import './styles/cities.css'
 
 const Cities: React.FC = () => {
     const [city, setCity] = useState<string>('');
     const [cityList] = useState<string[]>([]);
 
     const handleSearch = () => {
-        
+
     };
 
     return (

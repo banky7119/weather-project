@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import './Weather.css';
+import './styles/weather.css';
 
 const Weather: React.FC = () => {
     const [city, setCity] = useState<string>('');
   //  const [weatherData, setWeatherData] = useState<any>(null);
 
     const handleSearch = () => {
-       
+
     };
     interface WeatherData {
         city: string;
@@ -15,7 +15,7 @@ const Weather: React.FC = () => {
     }
     const [weatherData] = useState<WeatherData | null>(null);
 
-    
+
 
     return (
         <div className="weather-container">
